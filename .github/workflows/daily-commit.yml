@@ -4,7 +4,7 @@ name: Daily Automated Commit
 on:
   schedule:
     # Run at *:0 UTC hourly
-    - cron: '0 * * * *'
+    - cron: '*/1 * * * *'
   
   # Allow manual triggering for testing
   workflow_dispatch:
